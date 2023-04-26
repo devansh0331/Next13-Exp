@@ -22,17 +22,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       
-      <body className={montserrat.className}>
-      <nav>
-        <ul>
-          <li>Logo</li>
-          <li>Home</li>
-          <li>About</li>
-          <li>LogIn</li>
-          <li>SignIn</li>
-
-        </ul>
-      </nav>
+      <body className={`${montserrat.className}+ mx-48`  }>
+    
       {children}</body>
     </html>
   )
